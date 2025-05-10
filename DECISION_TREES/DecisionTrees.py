@@ -28,9 +28,6 @@ class DecisionTree:
 
 
     def _grow_tree(self, X,y, depth=0):
-
-        print(f"X shape: {X.shape}, type: {type(X)}")
-        print(f"y shape: {y.shape}, type: {type(y)}")
       
         n_samples, n_feats = X.shape
         n_labels = len(np.unique(y)) 
