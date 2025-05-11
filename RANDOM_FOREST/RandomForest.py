@@ -1,5 +1,6 @@
 import sys
-sys.path.append("c:/Users/mercz/OneDrive/Bureau/MACHINE_LEARNING_ALGORITHMS/")
+import os
+sys.path.append(os.getenv("MY_PROJECT_PATH"))
 from DECISION_TREES.DecisionTrees import DecisionTree
 from collections import Counter
 import numpy as np
